@@ -34,11 +34,11 @@ Similar to [Micro:bit chat tutorial](https://www.youtube.com/watch?v=egTeIghYXak
 I plan to run the code in my browser so they can see what they should see instead of uploading it to my own Micro:bit
 
 1. Initial programming steps
-  1. Set radio channel (have students use the number on their card). THis makes sure that only the Micro:bits set to the same channel (ideally, their neighbor) talk to each other
+  1. Set radio channel (have students use the number on their card). THis makes sure that only the Micro:bits set to the same channel (ideally, their neighbor) talk to each other.
 ![Radio group code](img/radio_group.png)
   1. When the button is pushed, send a message. Have them choose one of the secret words on their card.
 ![Message send event](img/msg_send.png)
-  1. When a message is received, display the message
+  1. When a message is received, display the message.
 ![Message recv event](img/msg_recv.png)
 1. After the code is written, students can investigate what the Python would look like (Blocks/Pyhthon selector at top).
 1. Download the code to the Micro:bits using Chrome and the big purple Download button
@@ -64,7 +64,7 @@ The idea is to use publicly available info and secret values known only to you t
 1. When the button is pressed, send the value `A`
 1. When the radio receives a number, generate the secret number by calculating (and showing) `receivedNumber ** secret_e % p`
 1. Upload the code to the Micro:bits and run it.  Does your secret number match your neighbor's?
-![img/dhke.png]
+![DHKE Code](img/dhke.png)
 
 ## The explanation
 
